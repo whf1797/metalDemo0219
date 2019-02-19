@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "YLZMetalView.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    YLZMetalView *metalView = [[YLZMetalView alloc] initWithFrame:CGRectMake(0, 0, 200, 300)];
+    [self.view addSubview:metalView];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

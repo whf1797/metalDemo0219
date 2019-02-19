@@ -15,6 +15,7 @@
 		E281F6B5221C4A95007BBA24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E281F6B4221C4A95007BBA24 /* main.m */; };
 		E281F6BF221C4A95007BBA24 /* metalDemo_0219Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E281F6BE221C4A95007BBA24 /* metalDemo_0219Tests.m */; };
 		E281F6CA221C4A95007BBA24 /* metalDemo_0219UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E281F6C9221C4A95007BBA24 /* metalDemo_0219UITests.m */; };
+		E281F6D9221C4AF6007BBA24 /* YLZMetalView.m in Sources */ = {isa = PBXBuildFile; fileRef = E281F6D8221C4AF6007BBA24 /* YLZMetalView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E281F6C5221C4A95007BBA24 /* metalDemo-0219UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "metalDemo-0219UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E281F6C9221C4A95007BBA24 /* metalDemo_0219UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = metalDemo_0219UITests.m; sourceTree = "<group>"; };
 		E281F6CB221C4A95007BBA24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E281F6D7221C4AF6007BBA24 /* YLZMetalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLZMetalView.h; sourceTree = "<group>"; };
+		E281F6D8221C4AF6007BBA24 /* YLZMetalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLZMetalView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				E281F6A6221C4A93007BBA24 /* AppDelegate.m */,
 				E281F6A8221C4A93007BBA24 /* ViewController.h */,
 				E281F6A9221C4A93007BBA24 /* ViewController.m */,
+				E281F6D7221C4AF6007BBA24 /* YLZMetalView.h */,
+				E281F6D8221C4AF6007BBA24 /* YLZMetalView.m */,
 				E281F6AB221C4A93007BBA24 /* Main.storyboard */,
 				E281F6AE221C4A95007BBA24 /* Assets.xcassets */,
 				E281F6B0221C4A95007BBA24 /* LaunchScreen.storyboard */,
@@ -264,6 +269,7 @@
 			files = (
 				E281F6AA221C4A93007BBA24 /* ViewController.m in Sources */,
 				E281F6B5221C4A95007BBA24 /* main.m in Sources */,
+				E281F6D9221C4AF6007BBA24 /* YLZMetalView.m in Sources */,
 				E281F6A7221C4A93007BBA24 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,7 +448,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "whf.metalDemo-0219";
+				PRODUCT_BUNDLE_IDENTIFIER = whf.whf1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -459,7 +465,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "whf.metalDemo-0219";
+				PRODUCT_BUNDLE_IDENTIFIER = whf.whf1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
